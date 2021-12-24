@@ -1,0 +1,249 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 15,
+    "passes": 15,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-12-24T03:41:34.107Z",
+    "end": "2021-12-24T03:41:34.228Z",
+    "duration": 121
+  },
+  "tests": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 13,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before each\" hook for \"contains a <NavBar /> component\"",
+      "fullTitle": "App \"before each\" hook for \"contains a <NavBar /> component\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: Navbar is not defined\n    at Object.App [as type] (src/containers/App.js:17:8)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /home/erinrrose/code/labs/react-components-as-routes-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/AppTest.js:16:15)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Navbar is not defined"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"should render one <h1 /> first, inside of the <div />\"",
+      "fullTitle": "Movies \"before each\" hook for \"should render one <h1 /> first, inside of the <div />\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'map' of undefined\n    at /home/erinrrose/code/labs/react-components-as-routes-lab/src/components/Movies.js:14:30\n    at Array.map (<anonymous>)\n    at Object.Movies [as type] (src/components/Movies.js:8:17)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /home/erinrrose/code/labs/react-components-as-routes-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/MoviesTest.js:20:15)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'map' of undefined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should render one <h1 />, inside of a <div />",
+      "fullTitle": "Actors should render one <h1 />, inside of a <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Actors Page' inside of the <h1 />",
+      "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each actor",
+      "fullTitle": "Actors should render a <div /> for each actor",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each actor with a className of 'actor'",
+      "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
+      "duration": 13,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render one <h1 /> first, inside of the <div />",
+      "fullTitle": "Directors should render one <h1 /> first, inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Directors Page' inside of the <h1 />",
+      "fullTitle": "Directors should render 'Directors Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render a <div /> for each director",
+      "fullTitle": "Directors should render a <div /> for each director",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render the right content for each director",
+      "fullTitle": "Directors should render the right content for each director",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should only render one <h1 /> inside of the <div />",
+      "fullTitle": "Home should only render one <h1 /> inside of the <div />",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should render 'Home Page' inside of the <h1 />",
+      "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
